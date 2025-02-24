@@ -1,5 +1,5 @@
 
-//Funcion para la primera parte
+//Funcion para la primera parte (index 3)
 
 function change_border() {
     let img_change = document.getElementById('img_change');
@@ -12,7 +12,7 @@ function change_border() {
     }
 }
 
-//funcion para la segunda parte
+//funcion para la segunda parte (index 2)
 
 function count() {
 
@@ -24,7 +24,7 @@ function count() {
    var conteo = parseFloat(stick1) + parseFloat(stick2) + parseFloat(stick3); 
 
     if ( 10 > conteo) {
-        var compra = 'Puedes comprar mas!';
+        var compra = 'Puedes comprar mas! llevas = ' + conteo;
         document.getElementById('compra').innerText = compra;
     } else if( conteo == 10 ) {
         var compra = 'ya estas en tu limite de compra!';
@@ -35,7 +35,7 @@ function count() {
     }
 }
 
-//Funcion para la tercera parte
+//Funcion para la tercera parte (index 1)
 
 function password() {
     let password = document.getElementById('password');
